@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dame's Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <marquee style=" font-style: italic; border: 5;" >WELCOME TO DAME'S COLLECTION. FEEL FREE TO EXPLORE OUR WIDE VARIETY OF CLOTHINGS</marquee>
+        <h1 style="font-family: 'Times New Roman', Times, serif;">DAME'S COLLECTION </h1>
+        <img src="logo.jpg" width="250" height="100" style="border-radius: 10%;">
+        <nav>
+            <ul>
+                <li><a href="index.html">All products</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="watches.html">Watches</a></li>
+                <li><a href="jewelry.html">Jewelry</a></li>
+                <li><a href="clothes.html">clothes</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#" id="cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+
+    <section id="shoes">
+        <h2>Shoes</h2>
+        <div class="sheos">
+            
+                <div class="sheos-container"> 
+
+                    <h3>Air jordans </h3>
+                    <img src="running sheos.jpg" width="350" height="350"> <br>
+                    <p>Price: $280</p>
+                    <button onclick="addToCart('Air Jordans ', 280)">Add to Cart</button>
+                </div>
+                <div class="sheos-container"> 
+
+                    <h3> Air Jordan 5 Retro "blue" </h3>
+                    <img src="Air Jordan 5 Retro.png" width="350" height="350"> <br>
+                    <p>Price: $419</p>
+                    <button onclick="addToCart('Air jordans 5 Retro', 419)">Add to Cart</button>
+                </div>
+            
+            <div class="sheos-container">
+                
+                <h3> Air Jordan 4 Retro "white" </h3>
+                <img src="Air Jordan 4 retro 'white'.png" width="350" height="350"> <br>
+                <p>Price: $419</p>
+                <button onclick="addToCart('Air jordans 4 retro', 380)">Add to Cart</button>
+            </div>
+            </div>
+    </section>
+
+ 
+
+   
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label> <br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+    
+        <p>© 2025 Dame's Collection. All rights reserved.&#8482;</p>
+        <img src="logo.jpg" width="100" height="60" style="border-radius: 10%;">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAME'S COLLECTION</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <marquee style=" font-style: italic; border: 5;" >WELCOME TO DAME'S COLLECTION. FEEL FREE TO EXPLORE OUR WIDE VARIETY OF CLOTHINGS</marquee>
+        <h1 style="font-family: 'Times New Roman', Times, serif;">DAME'S COLLECTION </h1>
+        <img src="logo.jpg" width="250" height="100" style="border-radius: 10%;">
+        <nav>
+            <ul>
+                <li><a href="#index.html">All Products</a></li>
+                <li><a href="./shoes.html">Shoes</a></li>
+                <li><a href="watches.html">Watches</a></li>
+                <li><a href="jewelry.html">Jewelry</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#" id="cart">Cart</a></li>
+            </ul>
+           
+        </nav>
+    </header>
+
+    <section id="clothes">
+        <h2 style=" color: #1f4d11; font-size: large;" >CLOTHES</h2>
+        <div class="clothes">
+        
+            <div class="cloth-container">
+            
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Classic Synarchy Shirt</h3>
+                <img src="synaworld.jpg" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $180</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select> <br>
+                <button onclick="addToCart('Classic Synarchy Shirt', 180)">Add to Cart</button>
+            </div>
+            <div class="cloth-container">
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">LDN Fight Tee- Black</h3>
+                <img src="Black Tee.png" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $80</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option> 
+                </select> <br>
+                <button onclick="addToCart('syna Black Tee', 180)">Add to Cart</button>
+            </div>
+            <div class="cloth-container">
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Syna FORGIVE ME TEE "WHITE"</h3>
+                <img src="FORGIVE ME TEE. BACK.png" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $70</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select> <br>
+                <button onclick="addToCart('syna Forgive me Tee', 180)">Add to Cart</button>
+            </div>
+            <div class="cloth-container">
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Syna FORGIVE ME TEE "BLACK"</h3>
+                <img src="FORGIVEMETEEBLACKBACK.png" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $70</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select> <br>
+                <button onclick="addToCart('syna Forgive me Tee', 180)">Add to cart </button>
+            </div>
+            <div class="cloth-container">
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">SYNARCHY TEE</h3>
+                <img src="longsleeve.png" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $80</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select> <br>
+                <button onclick="addToCart('Synarchy TEE', 180)">Add to Cart</button>
+            </div>
+            <div class="cloth-container">
+                
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">STEEL TEE- BLACK</h3>
+                <img src="Black Tee (2).png" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $80</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select> <br>
+                <button onclick="addToCart('Black Tee', 80)">Add to Cart</button>
+            </div>
+            <div class="cloth-container">
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Scuba Jacket</h3>
+                <img src="SCUBAJACKETFRONT-BLACK.png" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $148</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select> <br>
+                <button onclick="addToCart('Scuba Jacket', 148)">Add to Cart</button>
+            </div>
+            <div class="cloth-container">
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Nesta Black Graphic hoodie</h3>
+                <img src="Nesta Black Graphic hoodie.jpg" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $90</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select> <br>
+                <button onclick="addToCart('Nesta Black Graphic hoodie', 90)">Add to Cart</button>
+            </div>
+            <div class="cloth-container">
+                
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Shoota Beige Distressed hoodie</h3>
+                <img src="SHOOTA BEIGE DISTRESSED HOODIE.jpg" width="350" height="350" style="border-radius: 10%; border-color: #1f4d11; border-style: groove;"> <br>
+                <p>Price: $150</p>
+                <label for="size">Size:</label>
+                <select name="size" id="size"> 
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select> <br>
+                <button onclick="addToCart('Shoota Beige Distressed hoodie', 180)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="shoes">
+        <h2>SHEOS</h2>
+        <div class="sheos">
+            
+                <div class="sheos-container"> 
+
+                    <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Air jordans </h3>
+                    <img src="running sheos.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                    <p>Price: $280</p>
+                    <button onclick="addToCart('Air Jordans ', 280)">Add to Cart</button>
+                </div>
+                <div class="sheos-container"> 
+
+                    <h3> Air Jordan 5 Retro "blue" </h3>
+                    <img src="Air Jordan 5 Retro.png" width="350" height="350" style="border-radius: 10%;"> <br>
+                    <p>Price: $419</p>
+                    <button onclick="addToCart('Air jordans 5 Retro', 419)">Add to Cart</button>
+                </div>
+            
+            <div class="sheos-container">
+                
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;"> Air Jordan 4 Retro "white" </h3>
+                <img src="Air Jordan 4 retro 'white'.png" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $419</p>
+                <button onclick="addToCart('Air jordans 4 retro', 380)">Add to Cart</button>
+            </div>
+            </div>
+    </section>
+
+    <section id="watches">
+        <h2>WATCHES</h2>
+        <div class="watches">
+            <div class="watch-container"> 
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rolex Watch</h3>
+                <img src="rolex.jpg" width="350" height="350" style="border-radius: 10%;" > <br>
+                <p>Price: $150</p>
+                <button onclick="addToCart('Leather Strap Watch', 150)">Add to Cart</button>
+            </div>
+            <div class="watch-container"> 
+                
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rolex Watch</h3>
+                <img src="pexels-alex-carollo-188285-592815.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $150</p>
+                <button onclick="addToCart(' Rolex Watch', 150)">Add to Cart</button>
+            </div>
+            <div class="watch-container"> 
+                
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">leather strapped watch</h3>
+                <img src="leather strapped watch.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $85</p>
+                <button onclick="addToCart(' leather strapped watch', 150)">Add to Cart</button>
+            </div>
+            <div class="watch-container"> 
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rolex Watch</h3>
+                <img src="pexels-ferarcosn-190819.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $180</p>
+                <button onclick="addToCart('Rolex Watch', 180)">Add to Cart</button>
+            </div>
+            <div class="watch-container"> 
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rolex Watch</h3>
+                <img src="pexels-pixabay-364822.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $200</p>
+                <button onclick="addToCart('Rolex Watch', 200)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="jewelry">
+        <h2>JEWELRY</h2>
+        <div class="jewelry">
+            <div class="container">
+                <div class="jewelry-container"> 
+                
+                    <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rainbow Moonstone Necklace </h3>
+                    <img src="Rainbow Moonstone Jewelry.png" width="350" height="350" style="border-radius: 10%;"> <br>
+                    <p>Price: $500</p>
+                    <button onclick="addToCart('Diamond Necklace', 500)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="jewelry-container"> 
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Diamond Necklace</h3>
+                <img src="Diamond Necklace.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $300</p>
+                <button onclick="addToCart('Diamond Necklace', 300)">Add to Cart</button>
+            </div>
+            <div class="jewelry-container"> 
+
+                <h3 style="font-family: 'Times New Roman', Times, serif;">Sterling Silver Necklace</h3>
+                <img src="Sterling Silver necklace.png" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $250</p>
+                <button onclick="addToCart('Sterling Silver Necklace', 250)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label> <br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+    
+        <p>© 2025 Dame's Collection. All rights reserved.&#8482;</p>
+        <img src="logo.jpg" width="100" height="60" style="border-radius: 10%;">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

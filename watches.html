@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dame's Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <marquee style=" font-style: italic; border: 5;" >WELCOME TO DAME'S COLLECTION. FEEL FREE TO EXPLORE OUR WIDE VARIETY OF CLOTHINGS</marquee>
+        <h1 style="font-family: 'Times New Roman', Times, serif;">DAME'S COLLECTION </h1>
+        <img src="logo.jpg" width="250" height="100" style="border-radius: 10%;">
+        <nav>
+            <ul>
+                <li><a href="index.html">All products</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="watches.html">Watches</a></li>
+                <li><a href="jewelry.html">Jewelry</a></li>
+                <li><a href="clothes.html">clothes</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#" id="cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="watches">
+        <h2>WATCHES</h2>
+        <div class="watches">
+            <div class="watch-container"> 
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rolex Watch</h3>
+                <img src="rolex.jpg" width="350" height="350" style="border-radius: 10%;" > <br>
+                <p>Price: $150</p>
+                <button onclick="addToCart('Leather Strap Watch', 150)">Add to Cart</button>
+            </div>
+            <div class="watch-container"> 
+                
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rolex Watch</h3>
+                <img src="pexels-alex-carollo-188285-592815.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $150</p>
+                <button onclick="addToCart(' Rolex Watch', 150)">Add to Cart</button>
+            </div>
+            <div class="watch-container"> 
+                
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">leather strapped watch</h3>
+                <img src="leather strapped watch.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $85</p>
+                <button onclick="addToCart(' leather strapped watch', 150)">Add to Cart</button>
+            </div>
+            <div class="watch-container"> 
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rolex Watch</h3>
+                <img src="pexels-ferarcosn-190819.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $180</p>
+                <button onclick="addToCart('Rolex Watch', 180)">Add to Cart</button>
+            </div>
+            <div class="watch-container"> 
+
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Rolex Watch</h3>
+                <img src="pexels-pixabay-364822.jpg" width="350" height="350" style="border-radius: 10%;"> <br>
+                <p>Price: $200</p>
+                <button onclick="addToCart('Rolex Watch', 200)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+    <footer>
+    
+        <p>© 2025 Dame's Collection. All rights reserved.&#8482;</p>
+        <img src="logo.jpg" width="100" height="60" style="border-radius: 10%;">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
